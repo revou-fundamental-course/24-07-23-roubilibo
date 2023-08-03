@@ -76,6 +76,7 @@
   </head>
   <body>
     <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
       <a href="#" class="logo"><span>T</span>ravel</a>
       <nav class="navbar">
         <a href="#home">home</a>
@@ -96,7 +97,20 @@
         <label for="search-bar" class="fas fa-search"></label>
       </form>
     </header>
-
+    <!-- login form  -->
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your email" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+      </form>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
